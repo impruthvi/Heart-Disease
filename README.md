@@ -1,6 +1,6 @@
 # Predicting heart disease using machine learning
 
-This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting whether or not someone has heart disease based on their medical attributes.
+This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting wherher or not someone has heart disease based on their medical attributes.
 
 
 we're going to take the following approach:
@@ -37,10 +37,10 @@ This is where you'll get different information about each of the features in you
 1. age - age in years
 2. sex - (1 = male; 0 = female)
 3. cp - chest pain type
-    0: Typical angina: chest pain related decrease blood supply to the heart
-    1: Atypical angina: chest pain not related to heart
-    2: Non-anginal pain: typically esophageal spasms (non heart related)
-    3: Asymptomatic: chest pain not showing signs of disease
+    * 0: Typical angina: chest pain related decrease blood supply to the heart.
+    * 1: Atypical angina: chest pain not related to heart.
+    * 2: Non-anginal pain: typically esophageal spasms (non heart related).
+    * 3: Asymptomatic: chest pain not showing signs of disease.
 4. trestbps - resting blood pressure (in mm Hg on admission to the hospital) anything above 130-140 is typically cause for concern
 5. chol - serum cholestoral in mg/dl
     * serum = LDL + HDL + .2 * triglycerides
@@ -50,10 +50,10 @@ This is where you'll get different information about each of the features in you
 7. restecg - resting electrocardiographic results
     0: Nothing to note
     1: ST-T Wave abnormality
-        * can range from mild symptoms to severe problems
-        * signals non-normal heart beat
+    * can range from mild symptoms to severe problems
+    * signals non-normal heart beat
     2: Possible or definite left ventricular hypertrophy
-        * Enlarged heart's main pumping chamber
+    * Enlarged heart's main pumping chamber
 8. thalach - maximum heart rate achieved
 9. exang - exercise induced angina (1 = yes; 0 = no)
 10. oldpeak - ST depression induced by exercise relative to rest looks at stress of heart during excercise unhealthy heart will stress more
